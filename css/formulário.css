@@ -1,0 +1,227 @@
+body {
+    background-color: #272829
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.what1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: white;
+
+}
+
+.what1>label {
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+}
+
+.what1>input {
+    background-color: black;
+    border-radius: 40px;
+    cursor: pointer;
+    color: red;
+    padding: 10px;
+    width: 300px;
+    height: 20px;
+
+
+}
+
+.what1>input::placeholder {
+    text-align: center;
+    font-size: large;
+    color: red;
+}
+
+.what1>input:focus {
+    outline: dashed 1px white;
+    border: none;
+
+
+}
+
+.what1>input:hover {
+    background-color: white;
+    cursor: pointer;
+    color: red;
+    box-shadow: 200%;
+}
+
+#h1-2 {
+    font-size: 29px;
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+
+.what2> {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.allinputw2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.what2>.allinputw2>label {
+    color: white;
+    font-size: larger;
+
+}
+
+.what2>.allinputw2>input[type="checkbox"] {
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M18 19H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1m1-16H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2'/%3E%3C/svg%3E");
+
+}
+
+.what2>.allinputw2>input[type="checkbox"]:checked {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2m-8.29 13.29a.996.996 0 0 1-1.41 0L5.71 12.7a.996.996 0 1 1 1.41-1.41L10 14.17l6.88-6.88a.996.996 0 1 1 1.41 1.41z'/%3E%3C/svg%3E")
+}
+
+#outro2 {
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: red;
+    margin-left: 1px;
+    border: none;
+
+}
+
+#outro2::placeholder {
+    color: red;
+
+}
+
+.what2>label {
+    color: white;
+    font-size: larger;
+    margin: 1%;
+
+}
+
+.h1-3 {
+    font-size: 30px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.what3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: white;
+}
+
+.what3>input[type="radio"] {
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22m0-2q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m0-8'/%3E%3C/svg%3E");
+
+}
+
+.what3>input[type="radio"]:checked {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 15 15'%3E%3Cpath fill='%231164e8' fill-rule='evenodd' d='M0 7.5a7.5 7.5 0 1 1 15 0a7.5 7.5 0 0 1-15 0m7.072 3.21l4.318-5.398l-.78-.624l-3.682 4.601L4.32 7.116l-.64.768z' clip-rule='evenodd'/%3E%3C/svg%3E");
+
+}
+
+.what3>label {
+    appearance: none;
+    font-size: 20px;
+    color: white;
+    margin: 1%;
+}
+
+#opinião {
+    width: 160px;
+    height: 40px;
+    border: white;
+    margin-top: 15px;
+    background-color: black;
+    color: red;
+}
+
+#opinião::placeholder {
+    text-align: center;
+    color: red;
+    font-size: medium;
+}
+
+.h1-4 {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-size: 30px;
+}
+
+
+.bottonaww>input {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: larger;
+    background-color: whitesmoke;
+}
+
+.bottonaww>input:hover {
+    background-color: black;
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bottonaww {
+    text-align: center;
+    position: relative;
+    height: 2000px;
+
+}
+
+.bottonfix {
+    position: relative;
+}
+
+.bottonfix>textarea {
+    color: red;
+    text-align: center;
+    background-color: black;
+    margin-top: 10%;
+    position: fixed;
+    bottom: 5px;
+    left: 20px;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bottonfix>textarea::placeholder {
+    color: red;
+    font-size: larger;
+    bottom: 5px;
+}

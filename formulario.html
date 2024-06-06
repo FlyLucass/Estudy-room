@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Momentos e Teste ">
+    <meta name="author" content="Lucas Santos">
+    <link rel="stylesheet" href="css/formulário.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Formulário</h1>
+    <form>
+        <div class="what1">
+            <label for="name">Nome:</label> <input id="name" type="text" placeholder="Digite seu nome aquí" required>
+            <label for="age">Idade:</label> <input id="age" type="number" placeholder="Digite sua idade" required>
+            <label for="month">Data do Prenchimento:</label> <input id="month" type="month" required>
+            <label for="email">Email:</label> <input id="email" type="email" placeholder="Digite o seu Email">
+        </div>
+        <h1 id="h1-2">Quais Hobbies Você se Interressa ou Pratica?</h1>
+        <div class="what2">
+
+            <div class="allinputw2"><input type="checkbox" name=H2 value="Leitura"><label for="H2">Leitura</label>
+            </div>
+            <div class="allinputw2"><input type="checkbox" name=H5 value="Viagens"><label for="H5">Viagens</label>
+            </div>
+            <div class="allinputw2"><input id="H1" type="checkbox" name=H1 value="Esportes"><label
+                    for="H1">Esportes</label>
+            </div>
+            <div class="allinputw2"><input type="checkbox" name=H3 value="Escutar Música"><label for="H3">Escutar
+                    Música</label>
+            </div>
+            <div class="allinputw2"><input type="checkbox" name=H4 value="Arte e Cultura"><label for="H4">Arte e
+                    Cultura</label>
+            </div>
+            <div class="allinputw2"><input type="checkbox" name=H6 value="Outro"><label for="H6"
+                    style="margin: 2px;">Outro:</label><input type=" text" placeholder="ESPECIFIQUE" id="outro2">
+            </div>
+
+        </div>
+        <h1 class="h1-3">Qual Prefere?</h1>
+        <div class="what3"><input type="radio" id="escolhar" name="opinas" value="Series"><label
+                for="escolhar">Series</label>
+            <input type="radio" id="escolhar2" name="opinas" value="Filmes"><label for="escolhar2">Filmes</label>
+            <input type="text" id="opinião" placeholder="POR QUE E QUAL?">
+        </div>
+        <h1 class="h1-4">Final!</h1>
+        <div class="bottonaww"><input type="submit" value="ENVIAR FORMULÁRIO"></div>
+        <div class="bottonfix"><textarea placeholder="Digite sua mensagem para mim" name="textinho" cols="30"
+                rows="10"></textarea></div>
+
+    </form>
+</body>
+
+</html>
