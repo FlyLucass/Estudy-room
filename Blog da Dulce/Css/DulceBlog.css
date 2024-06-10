@@ -1,5 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #282729;
+    padding-bottom: 5%;
+
 }
 
 h2 {
@@ -10,31 +18,32 @@ h2 {
 
 .MiniBio {
     display: flex;
-    margin-left: 100px;
-    margin-right: 50px;
-
+    margin-left: 6.25rem;
+    margin-right: 3.94rem;
+    position: relative;
+    margin-top: 3.0rem;
 }
 
-biografia {
+.MiniBio p {
     color: white;
     font: medium justify;
     font-style: italic;
     width: 70%;
-    margin-right: 15px;
+    margin-right: 0.94rem;
     line-height: 1.4;
 
 }
 
 foto {
     width: 30%;
-    margin-left: 30px;
-    margin-top: 25px;
+    margin-left: 1.88rem;
+    margin-top: 1.56rem;
 
 }
 
 foto img {
-    height: 355px;
-    width: 350px;
+    height: 22.19rem;
+    width: 21.88rem;
     transform: rotate(10deg);
 }
 
@@ -43,47 +52,63 @@ foto img {
     margin-bottom: 5%;
 }
 
-Poemas h3 {
-    text-align: center;
-    font-style: italic;
-    color: aliceblue;
-
-}
-
-Poemas Poema1 {
+#poemas {
+    position: relative;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: #140E0A;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
-Poema1 imagem img {
-    width: 300px;
-    height: 350px;
-    margin: 5px;
+#poemas h3 {
+    color: white;
+    font-size: larger;
+    margin-bottom: 1rem;
 
 
 }
 
-.trecho {
+#poemas>#poema1 {
     display: grid;
+    grid-template-areas: "figure" "trecho";
+    grid-template-columns: repeat(2, 15fr);
+    column-gap: 5%;
+    height: 20rem;
+    width: 45rem;
+    background-color: #140E0A;
+    position: relative;
     place-items: center;
 
 }
 
-Poema1 div.trecho poema {
-    font-size: 19px;
+#poemas #poema1 figure img {
+    width: 20rem;
+    height: 19rem;
+    position: relative;
+
+
+}
+
+#poemas #poema1 .trecho {
+    display: flex;
+    flex-direction: column;
+    gap: 1.0rem;
+    position: relative;
+    place-items: center;
+    margin-right: 1rem;
+
+
+}
+
+#poemas #poema1 .trecho .item1 {
+    font-size: 1.0rem;
     line-height: 1.5;
-    text-align: center;
-    padding: 20px;
+    text-align: justify;
     color: white
 }
 
-Poema1 div.trecho audio {
-    margin-bottom: 20px;
-    height: 20px;
+#poemas #poema1 .trecho .item2 audio {
+    height: 1.5rem;
 
 }
