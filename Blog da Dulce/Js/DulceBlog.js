@@ -1,1 +1,0 @@
-alert("Bem vindo! Ao blog da Cantora Dulce maria, criado por Lucas Santos(@fly_lucas_) e algo simples, mas foi no intuito de treinar o desenvolvimento web, pretendo no futuro fazer algums mudanças como: navegação entre páginas. Espero quê Desfrutem.");
