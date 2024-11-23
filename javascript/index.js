@@ -5,9 +5,10 @@ function calculando() {
     var op = document.getElementById("op").value;
     var valor;
 
+
     switch (op) {
         case '+':
-            valor = num1 + num2;
+            valor = +num1 + +num2;
             break;
         case '-':
             valor = num1 - num2;
