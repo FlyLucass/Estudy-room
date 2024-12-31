@@ -1,9 +1,9 @@
 function calculando() {
 
-    var num1 = document.getElementById("num1").value;
-    var num2 = document.getElementById("num2").value;
-    var op = document.getElementById("op").value;
-    var valor;
+    const num1 = document.getElementById("num1").value;
+    const num2 = document.getElementById("num2").value;
+    const op = document.getElementById("op").value;
+    let valor;
 
 
     switch (op) {
@@ -24,5 +24,6 @@ function calculando() {
     }
 
     alert(valor);
+
 
 }
