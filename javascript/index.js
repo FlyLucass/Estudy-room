@@ -5,7 +5,6 @@ function calculando() {
     const op = document.getElementById("op").value;
     let valor;
 
-
     switch (op) {
         case '+':
             valor = +num1 + +num2;
@@ -24,6 +23,5 @@ function calculando() {
     }
 
     alert(valor);
-
 
 }
