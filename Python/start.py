@@ -10,14 +10,12 @@ import statistics;
 # if dia=='28/12': print("feliz natal")
 # else: print("ainda não e natal")
 
-cpf=int(input("Digite um cpf "))
-t_cpf=[]
-t_cpf.append(cpf)
-print(t_cpf)
-i=len(t_cpf)
-
-if i == 11:print("Os numeros digitados formam um cpf")
-else:("Esse numeros não formam um cpf")
+#Validado de CPF, pelo tamanho
+cpf=()
+cpf=tuple(input("Digite um cpf "))
+t_cpf=len(cpf)
+if t_cpf == 11:print("Os numeros digitados formam um cpf")
+else:print("Esse numeros não formam um cpf")
 
  
 

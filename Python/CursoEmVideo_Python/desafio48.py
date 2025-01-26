@@ -1,0 +1,6 @@
+frase=str(input("Digite uma frase: ")).upper().replace(" ", "").strip()
+frase_reverso=frase[::-1].upper().replace(" ", "")
+print(frase)
+print(frase_reverso)
+if frase == frase_reverso:  print("essa frase e um palidromo")
+else:print("essa frase não e um palidromo")

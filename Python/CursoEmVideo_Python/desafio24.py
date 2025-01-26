@@ -1,0 +1,6 @@
+frase=input("Escreva uma frase qualquer: ")
+frase=frase.upper()
+nva=frase.count('A')
+pa=frase.find('A')
+ua=frase.rfind('A')
+print("O numero de vezes que aparece a letra a e: {}\na posicao da primeira e:{}\na ultima posicao e: {}".format(nva,pa,ua))

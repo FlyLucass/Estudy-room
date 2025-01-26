@@ -1,0 +1,11 @@
+valueprd=float(input("Calculando o desconto aplicado, sobre a forma de pagamento \nQual o valor do produto? "))
+formpague=str(input("Qual sera a forma de pagamento? "))
+formpague=formpague.upper()
+if formpague == "CARTÃO DE CRÉDITO": 
+    xvezes= int(input("Em quantas vezes? "))
+    if xvezes==1 :print(valueprd-(valueprd*0.05))
+    elif xvezes==2 :print(valueprd)
+    else: print(valueprd+(valueprd*0.2))
+elif formpague == "DINHEIRO": print(valueprd-(valueprd*0.1))
+elif formpague ==  "CHEQUE": print(valueprd-(valueprd*0.1))
+else: print("Essa forma de pagamento não existe")

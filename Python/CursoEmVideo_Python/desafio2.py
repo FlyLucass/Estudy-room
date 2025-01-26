@@ -1,0 +1,18 @@
+nome=input('Qual o seu nome')
+idade=input('qual a sua idade')
+peso=input('quanto você pesa')
+print( f"\033[1;31m {nome}\033[0m,\033[1;32m {idade}\033[0m, \033[1;33m{peso}\033[0m")
+print('Bem vindo'','+nome)
+print('Vamos começa, me fale sua data de nascimento no seguinte formato: Dia/data/ano')
+Dia=input('Dia')
+Mes=input('Mês')
+Ano=input('ano')
+print( f"OK! Sua data de nascimento e essa: \033[1;35;40m {Dia}/{Mes}/{Ano}\033[0m")
+input('Correto?')
+print('Soma de Números')
+numb1=(input('Digite o 1° número'))
+numb2=(input('Digite o 2° número'))
+soma=numb1+numb2
+#forma  antiga: print('A soma entre',numb1,'+',numb2,'é:',soma) 
+print('A soma entre {}{}{}+{}{}{} é:{} {}{}'.format('\033[1;31m',numb1,'\033[0m','\033[1;31m',numb2,'\033[0m','\033[1;32m',soma,'\033[0m'))
+# forma mais short com (.format) mais atual

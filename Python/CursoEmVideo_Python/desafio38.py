@@ -1,0 +1,5 @@
+num1=float(input("Vamos comparar valores \nDigite o primeiro número: "))
+num2=float(input("DIgite o segundo valor "))
+if num1>num2:print(f"o primeiro Número: {num1},e maior que segundo número {num2}")
+elif num2>num1:print("o segundo Número: {},e maior que o primeiro número {}".format(num2,num1))
+else: print("Os dois Números são iguais")

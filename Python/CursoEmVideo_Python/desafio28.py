@@ -1,0 +1,5 @@
+value_a=float(input("Digite o valor do lado A: "))
+value_b=float(input("Digite o valor do lado B: "))
+value_c=float(input("Digite o valor da lado C: "))
+if value_a+value_b>value_c and value_a+value_c>value_b and value_b+value_c>value_a : print("Esse valores formam um triangulo")
+else: print("Esse valores nao formam um tringulo")

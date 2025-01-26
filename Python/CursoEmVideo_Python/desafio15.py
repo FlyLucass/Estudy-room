@@ -1,0 +1,5 @@
+altura=float(input("Diga-me a Altura da parede, em metros:"))
+largura=float(input("Agora a largura, em metros"))
+area=float(altura*largura)
+tinta=float(area//2)
+print("E necessario {} de tinta para pinta {}".format(tinta,area))

@@ -1,0 +1,5 @@
+print('vamos calcular sua media! ')
+nota1=float(input('Digite a primeira nota: '))
+nota2=float(input('Digite uma segunda nota: '))
+media=float((nota1+nota2)/2)
+print("A Sua media e: {}".format(media))

@@ -1,0 +1,8 @@
+print("Vamos saber se o emprestimo pode ser aprovado para você?")
+valuehome=float(input("qual o valor total da casa? "))
+valuerent=float(input("Qual sua renda mensal? "))
+valueage=int(input("em quantos anos você pensa em quitar? "))
+prest=float(valuehome/(valueage*12))
+rent_ok=float(valuerent-(valuerent*0.3))
+if prest>rent_ok: print("excedeu 30% da sua renda mensal, emprestimo negado! ")
+else:print("Emprestimo Aceito, Parabéns, sucesso!!!")
