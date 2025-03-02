@@ -3,6 +3,7 @@ import random;
 import datetime;
 import time;
 import statistics;
+import operator;
 
 
 
@@ -23,6 +24,12 @@ import statistics;
 #     print(f"na posição {indice} o valor e {nub}")
 # print("Apenas esses")
 
+pessoas= [ {'nome':'lucas'},
+        {'nome':'santos'}
+        ]
+         
+
+print(pessoas)
 
 
 

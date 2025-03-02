@@ -1,4 +1,4 @@
-//@ts-check
+
 
 
 function calculando() {
