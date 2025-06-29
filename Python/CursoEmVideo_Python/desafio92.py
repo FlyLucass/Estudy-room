@@ -4,7 +4,7 @@ dados={}
 nome=str(input("Digite seu nome: "))
 dados.update({'Nome:':nome})
 ano_nasc=int(input("Digite seu ano de nascimento: "))
-idade=datetime.now().year-ano_nasc
+idade=datetime.datetime.now().year-ano_nasc 
 dados.update({'Idade:':idade})
 ctps=int(input("Digite sua CTPS: "))
 dados.update({'Ctps:':ctps})
