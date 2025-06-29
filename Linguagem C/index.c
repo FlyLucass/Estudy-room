@@ -115,7 +115,7 @@ int main(void)
     int *pont = &num;
     printf("%d", num);     // mostra 30 de acordo a variavel
     printf("\n%p", pont);  // mostra endereço de memoria
-    printf("\n%d", *pont); // mostra 30
+    printf("\n%d", *pont); // mostra 30 com base no endereço de memoria
 
     *pont = 90;
     printf("\n%d", num);
@@ -131,5 +131,5 @@ int main(void)
     pont = NULL;
     ponteiro = NULL;
 
-       return 0;
+    return 0;
 }
