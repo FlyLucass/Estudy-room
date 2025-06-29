@@ -90,6 +90,11 @@ num(a) #saida 9, depois da função, pois declara o a como 9
 
 #dar para chamar a função dentro do print
 
+import test;
+
+fat_user=int(input("Digite um número"))
+print(f"O fatorial de {fat_user} é {test.fatorial(fat_user)}")
+print(f"O {fat_user} elevado a 2 é {test.elevado(fat_user)}")
 
 
 
