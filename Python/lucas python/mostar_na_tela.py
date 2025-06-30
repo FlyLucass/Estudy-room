@@ -1,4 +1,5 @@
-import moeda
+from UtilidadesCeV import moeda
+
 
 print(moeda.prog())
 
@@ -9,5 +10,5 @@ valor_em_porcetagem=float(input("Digite um valor em porcetagem "))
 # print(f"Diminuiu {moeda.diminuir(valor_user,valor_em_porcetagem,False)}")
 # print(f"Dobro {moeda.dobro(valor_user,True)} \nMetade {moeda.metade(valor_user,False)}" )
 
-moeda.resumo(valor_user,valor_em_porcetagem,False)
+moeda.resumo(valor_user,valor_em_porcetagem,True)
 
