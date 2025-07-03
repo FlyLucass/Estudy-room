@@ -4,7 +4,7 @@ from . import moeda_value
 def aumentar(valor,plus,f=True):
     plus_new_valor= valor+((plus/100)*valor)
     if f==True: 
-        return moeda_value.moeda(plus_new_valor)
+        return moeda_value.moeda_formatada(plus_new_valor)
     else:
         plus_new_valor=valor+((plus/100)*valor)
         return plus_new_valor
@@ -13,7 +13,7 @@ def aumentar(valor,plus,f=True):
 def diminuir(valor,minus,f=True):
     if f==True:
         minus_new_valor=valor-((minus/100)*valor)
-        return moeda_value.moeda(minus_new_valor)
+        return moeda_value.moeda_formatada(minus_new_valor)
     else:
         minus_new_valor=valor-((minus/100)*valor)
         return minus_new_valor
@@ -21,7 +21,7 @@ def diminuir(valor,minus,f=True):
 def dobro(valor,f=True):
     if f==True: 
         dobro=valor*2
-        return moeda_value.moeda(dobro)
+        return moeda_value.moeda_formatada(dobro)
     else:
         dobro=valor*2
         return dobro
@@ -30,7 +30,7 @@ def dobro(valor,f=True):
 def metade(valor,f=True):
     if f==True:
         metade=valor/2
-        return moeda_value.moeda(metade)
+        return moeda_value.moeda_formatada(metade)
     else:
         metade=valor/2
         return metade
@@ -55,7 +55,7 @@ def prog():
     return prog_funções
 
 def resumo(valor,porcen,f=False):
-    if f==True:print(f"O valor {moeda_value.moeda(valor)} ")
+    if f==True:print(f"O valor {moeda_value.moeda_formatada(valor)} ")
     else:print(f"O valor {valor} ")
     print(f"Aumentou {aumentar(valor,porcen,f)} ")
     print(f"Diminuiu {diminuir(valor,porcen,f)} ")
